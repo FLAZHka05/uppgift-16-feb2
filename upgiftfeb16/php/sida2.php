@@ -24,8 +24,7 @@ echo "<h1> This webpage takes 3 out of users animals and replace some of it.</h1
 <?php
  if (isset($_POST['submit'])) {
 
-}
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
     // a. Sparar djuren som är inmatade i formuläret till arrayen $farmAnimals
     $farmAnimals = $_POST['animals'];
 
